@@ -163,6 +163,7 @@ class Game
 		correct_pattern.each do |value|
 			if player_guess.any?(value)
 				right_colors +=1
+				player_guess.delete_at(player_guess.index(value))
 			end
 		end
 		return right_colors
