@@ -1,0 +1,32 @@
+---
+:hangman:
+- '0'
+- "|"
+- " "
+- " "
+- " "
+- " "
+- " "
+:num_wrong_guess: 2
+:correct_guesses:
+- m
+- a
+- &1
+  - "▢"
+- *1
+- i
+- a
+- *1
+- *1
+- l
+- l
+- i
+- a
+- n
+- i
+- *1
+- m
+:wrong_guesses:
+- b
+- t
+:word_to_guess: machiavellianism
